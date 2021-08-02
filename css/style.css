@@ -1,0 +1,266 @@
+/* Reset start */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+	/* background: linear-gradient(180deg, rgba(245, 246, 250, 0) 0%, rgba(245, 246, 250, 0.8) 67.72%, #F5F6FA 100%); */
+  /* background: linear-gradient(90deg, #F5F7Fc 50%, #F5F6FB 20%, 40%, #F5F6Fa 30% ); */
+  background-color: #F5F7FC;
+  background-image: url(../img/Bitmap.jpg);
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+
+
+img {
+  max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: #4857EC;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.96px;
+  color: #FFF;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.d-grid {
+  display: grid;
+}
+/* Reset end */
+
+/* Default clases start */
+
+.container  {
+  max-width: 934px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header-content {
+  margin-top: 80px;
+}
+
+.logo a h3 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 25px;
+  color: #000000;
+}
+
+
+
+.header-nav a + a {
+  margin-left: 57px;
+}
+
+.header-nav a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height:  18.96px;;
+  color: #000000;
+}
+
+.header-nav a:hover {
+  border-bottom: 4px solid #FF3344;
+}
+
+
+
+.header-nav-btn {
+  margin-left: 59px;
+  padding: 13px 29px 13px 25px;
+  width: 142px;
+  height: 45px;
+}
+
+.design-screen {
+  margin-top: 10px;
+  position: relative;
+}
+
+.design-screen-info {
+  margin-top: 150px;
+  margin-right: 50px;
+}
+
+.screen-info-title {
+  max-width: 369px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 65px;
+  margin-bottom: 26px;
+}
+
+.screen-info-text {
+  max-width: 302px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.33px;
+  color: #000;
+  margin-bottom: 32px;
+}
+
+.screen-info-button {
+  width: 165px;
+  height: 55px;
+  padding: 14px 29px 15px 29px;
+
+}
+
+/* .design-screen-body .elips {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background-color: #2FEFB1;
+  /* width: 705px; */
+
+/* }  */
+
+.screen-info-elipsis {
+  position: absolute;
+}
+
+.info-elipsis-first {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #F7E36D;
+  border-radius: 50%;
+  left: 260px;
+  top: -260px;
+}
+
+.info-elipsis-second {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  background-color: #2FEFB1;
+  border-radius: 50%;
+  left: 320px;
+  top: -220px;
+}
+
+.info-elipsis-third {
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  background-color: #4857EC;
+  border-radius: 50%;
+  left: 360px;
+  top: 45px;
+}
+
+.info-elipsis-fourth {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: #FF3344;
+  border-radius: 50%;
+  left: 350px;
+  top: 200px;
+}
+
+.info-elipsis-fifth {
+  position: absolute;
+  width:35px;
+  height: 35px;
+  background-color: #FF3344;
+  border-radius: 50%;
+  left: 900px;
+  top: 150px;
+
+}
+
+.design-screen-footer {
+  margin-top: 16px;
+  margin-bottom: 167px;
+}
+
+.screen-footer-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #8A94A6;
+  margin-bottom: 35px;
+}
+
+.trusted-company a + a {
+  margin-left: 67px;
+}
+
+.features-content {
+  grid-gap: 10px;
+  grid-template-columns: 40% 30% 30%;
+}
+
+.features-content-info h5 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.7px;
+  color: #4857EC;
+  margin-bottom: 24px;
+}
+
+.features-content-info h3 {
+  max-width: 288px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 45px;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.features-content-info p {
+  max-width: 343px;
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000;
+}
