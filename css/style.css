@@ -264,3 +264,47 @@ p, h1, h2, h3, h4, h5, h6 {
   line-height: 25px;
   color: #000;
 }
+
+.card-item-logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  padding: 17px 18px;
+}
+
+.content-card-item  .first {
+  background: rgba(72, 87, 236, 0.2);
+}
+
+.content-card-item h4 {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 45px;
+  color: #000;
+}
+
+.content-card-item p {
+  font-weight: 400;
+  color: #98A1BB;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.content-card-item + .content-card-item {
+  margin-top: 72px;
+}
+
+.content-card-item  .second {
+  background: rgba(47, 239, 177, 0.2);
+}
+
+.content-card-item  .third {
+  background: rgba(255, 51, 68, 0.2);
+}
+
+.content-card-item  .fourth {
+  background: rgba(247, 227, 109, 0.2);
+}
+
+
