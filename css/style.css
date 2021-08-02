@@ -72,6 +72,10 @@ p, h1, h2, h3, h4, h5, h6 {
 .d-grid {
   display: grid;
 }
+
+.text-transform-uppercase {
+  text-transform: uppercase;
+}
 /* Reset end */
 
 /* Default clases start */
@@ -307,4 +311,80 @@ p, h1, h2, h3, h4, h5, h6 {
   background: rgba(247, 227, 109, 0.2);
 }
 
+.features {
+  margin-bottom: 215px;
+  position: relative;
+}
 
+.portfolio-title {
+  margin-top: 10px;
+  margin-bottom: 24px;
+
+}
+
+.portfolio-title h6 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.7px;
+  color: #4857EC;
+  text-align: center;
+}
+
+.portfolio-elipsis {
+  position: absolute;
+}
+
+.portfolio-elipsis-first {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #F7E36D;
+  top: 35px;
+  left: 110px;
+}
+
+.portfolio-elipsis-second{
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background-color: #FF3344;
+  top: -50px;
+  left: 240px;
+}
+
+.portfolio-elipsis-third{
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #2FEFB1;
+  top: -50px;
+  left: 900px;
+}
+
+.portfolio-elipsis-fourth{
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #4857EC;
+  top: 90px;
+  left: 750px;
+}
+
+.portfolio-work-title  {
+  margin-top: 24px;
+}
+
+.portfolio-work-title h3 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.portfolio-work {
+  margin-bottom: 83px;
+}
