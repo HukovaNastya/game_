@@ -1,33 +1,35 @@
+$(document).ready(function(){
+  $('.content-sliders').slick({
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow:1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
 
-const slides = document.querySelectorAll('.slider-card')
-const leftBtn = document.getElementById('left')
-const rightBtn = document.getElementById('right')
+  });
 
-let activeSlide = 0
+});
 
-rightBtn.addEventListener('click', () => {
-  activeSlide++
-
-  if (activeSlide > slides.length - 1) {
-    activeSlide = 0
-  }
-
-  setActiveSlide()
-})
-
-leftBtn.addEventListener('click', () => {
-  activeSlide--
-
-  if (activeSlide < 0) {
-    activeSlide = slides.length - 1
-  }
-
-  setActiveSlide()
-})
-
-
-function setActiveSlide() {
-  slides.forEach((slide) => slide.classList.remove('active'))
-
-  slides[activeSlide].classList.add('active')
-}

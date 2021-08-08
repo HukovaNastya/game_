@@ -394,12 +394,7 @@ p, h1, h2, h3, h4, h5, h6 {
   margin-left: 10px;
 }
 
-/* .portfolio-card + .portfolio-card {
-  margin-left: 20px;
-} */
-
 .portfolio-card-item a img {
-  /* width: 260px; */
   border-radius: 30px;
 }
 
@@ -471,7 +466,7 @@ p, h1, h2, h3, h4, h5, h6 {
   height: 250px;
   background-color: #fff;
   border-radius: 10px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .slider-header {
@@ -486,6 +481,11 @@ p, h1, h2, h3, h4, h5, h6 {
   background: rgba(72, 87, 236, 0.1);
   border-radius: 50%;
   padding: 14px 15px;
+}
+
+.slider-header-img.second {
+  background: rgba(47, 239, 177, 0.2)
+
 }
 
 .slider-header-info {
@@ -517,50 +517,77 @@ p, h1, h2, h3, h4, h5, h6 {
   padding-bottom: 32px;
   font-weight: 400;
   font-size: 16px;
-  /* line-height: 25px; */
   color: #000;
 }
 
-.testimonial-slider-button {
-  margin-left: 200px;
-  margin-top: -50px;
+/* Слайдер */
+.content-sliders{
+  position: relative;
+}
+/* Слайдер запущен */
+
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+  display: flex;
 }
 
-.testimonial-slider-button button + button {
-  margin-left: 16px;
-}
 
-.arrow {
+.slick-arrow {
   width: 35px;
   height: 35px;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 0;
 }
 
-.arrow:focus {
-  outline: 0;
-}
-
-.left-arrow {
+.slick-arrow.slick-prev {
+  position: absolute;
   color: #AAB2C8;
   border: 2px solid #AAB2C8;
+  top: -130px;
+  left: 815px;
+}
+.slick-arrow.slick-prev:after {
+  content: "\f060";
+  font-family: "Font Awesome 5 Brands";
+  font-size: 24px;
+  color: #000;
 }
 
-.right-arrow {
+.slick-arrow.slick-next {
+  position: absolute;
   border: 2px solid #F9C94E;
-  color: #F9C94E
+  color: #F9C94E;
+  top: -130px;
+  left: 865px;
 }
 
-.content-slide {
-  max-width: 904px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  overflow: hidden;
+.slick-arrow.slick-next:before {
+  content: "\f178";
+  font-family: "Font Awesome 5 Brands";
+  font-size: 24px;
+  color: #777;;
 }
 
-.slider-card  {
-  opacity: 0;
+.testimonias-more {
+  margin-top: 84px;
+  margin-left: 370px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.33px;
+  color: #4857EC;
 }
 
-.slider-card.active {
-  opacity: 1;
+.testimonias-more::after {
+  content: "";
+  background-image: url('./img/see-all.png');
+  width: 11.25px;
+  height: 15px;
+  color: #4857EC;
+  margin-left: 15px;
 }
+
