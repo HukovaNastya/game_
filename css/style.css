@@ -552,10 +552,10 @@ p, h1, h2, h3, h4, h5, h6 {
   left: 815px;
 }
 .slick-arrow.slick-prev:after {
-  content: "\f060";
+  content: "\2190";
   font-family: "Font Awesome 5 Brands";
-  font-size: 24px;
-  color: #000;
+  font-size: 18px;
+  color: #AAB2C8;
 }
 
 .slick-arrow.slick-next {
@@ -567,13 +567,14 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .slick-arrow.slick-next:before {
-  content: "\f178";
+  content: "\2192";
   font-family: "Font Awesome 5 Brands";
-  font-size: 24px;
-  color: #777;;
+  font-size: 18px;
+  color: #F9C94E;
 }
 
 .testimonias-more {
+
   margin-top: 84px;
   margin-left: 370px;
   font-weight: 700;
@@ -582,12 +583,10 @@ p, h1, h2, h3, h4, h5, h6 {
   color: #4857EC;
 }
 
-.testimonias-more::after {
-  content: "";
-  background-image: url('./img/see-all.png');
-  width: 11.25px;
-  height: 15px;
-  color: #4857EC;
+.testimonias-more a::after {
+  content: "\2192";
   margin-left: 15px;
+  height: 15px;
+  width: 11.25;
 }
 
