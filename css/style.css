@@ -590,3 +590,59 @@ p, h1, h2, h3, h4, h5, h6 {
   width: 11.25;
 }
 
+/* .content-sliders {
+  z-index: 99;
+  background: url(../img/map.png);
+  background-repeat: no-repeat;
+} */
+
+.team {
+  margin-top: 166px;
+  margin-bottom: 24px;
+}
+
+.team-title h5 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.7px;
+  color: #4857EC;
+}
+
+.our-team .col-3 {
+  margin-left: 20px;
+}
+
+.our-team .col-3 img {
+  border-radius: 30px;
+}
+
+.our-team .col-3  h5 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 45px;
+}
+
+.our-team .col-3  p {
+  text-align: center;
+  font-weight: 400;
+  color: #98A1BB;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.view-more {
+  margin-top: 66px;
+  margin-left: 420px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.33px;
+  color: #4857EC;
+}
+
+.view-more a::after {
+  content: "\2192";
+  margin-left: 15px;
+  height: 15px;
+  width: 11.25;
+}
