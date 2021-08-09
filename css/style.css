@@ -590,12 +590,6 @@ p, h1, h2, h3, h4, h5, h6 {
   width: 11.25;
 }
 
-/* .content-sliders {
-  z-index: 99;
-  background: url(../img/map.png);
-  background-repeat: no-repeat;
-} */
-
 .team {
   margin-top: 166px;
   margin-bottom: 24px;
@@ -650,6 +644,7 @@ p, h1, h2, h3, h4, h5, h6 {
 footer {
   margin-top: 107px;
   background-color: #fff;
+  min-height: 567px;
 }
 
 .footer-conteiner {
@@ -663,7 +658,58 @@ footer {
   padding-top: 145px;
 }
 
-.footer-content .logo a h3 {
-  
+.footer-content {
+  grid-gap: 10px;
+  grid-template-columns: 30% 70%;
+}
 
+.col-2-wrap {
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.col-list  {
+  flex-direction: column;
+}
+
+.footer-social {
+  margin-top: 180px;
+  max-width: 273px;
+
+}
+
+.footer-solial-content + .footer-solial-content {
+  margin-left: 42px;
+}
+
+
+.col-2-card a h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 27.43px;
+}
+
+.col-list  a {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #AAB2C8;
+
+}
+
+ .col-list  a +  a {
+  margin-top: 19px;
+}
+
+.footer-text {
+  margin-top: 73px;
+}
+
+.footer-text  p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #8A94A6;
 }
