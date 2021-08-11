@@ -115,12 +115,6 @@ p, h1, h2, h3, h4, h5, h6 {
   color: #000000;
 }
 
-
-
-/* .header-nav a + a {
-  margin-left: 57px;
-} */
-
 .header-nav a {
   font-weight: 500;
   font-size: 16px;
@@ -133,16 +127,12 @@ p, h1, h2, h3, h4, h5, h6 {
   border-bottom: 4px solid #FF3344;
 }
 
-
-
 .header-nav-btn {
   margin-left: 59px;
   padding: 13px 29px 13px 25px;
   width: 142px;
   height: 45px;
 }
-
-
 
 .design-screen {
   margin-top: 10px;
@@ -177,15 +167,6 @@ p, h1, h2, h3, h4, h5, h6 {
   padding: 14px 29px 15px 29px;
 
 }
-
-/* .design-screen-body .elips {
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-  background-color: #2FEFB1;
-  /* width: 705px; */
-
-/* }  */
 
 .screen-info-elipsis {
   position: absolute;
@@ -270,8 +251,6 @@ p, h1, h2, h3, h4, h5, h6 {
   grid-template-columns: 1fr 1fr;
 }
 
-
-
 .features-content-info h5 {
   font-weight: 500;
   font-size: 20px;
@@ -347,7 +326,6 @@ p, h1, h2, h3, h4, h5, h6 {
 .portfolio-title {
   margin-top: 10px;
   margin-bottom: 24px;
-
 }
 
 .portfolio-title h6 {
@@ -513,7 +491,6 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .slider-header-img.second {
   background: rgba(47, 239, 177, 0.2)
-
 }
 
 .slider-header-info {
@@ -548,21 +525,17 @@ p, h1, h2, h3, h4, h5, h6 {
   color: #000;
 }
 
-/* Слайдер */
 .content-sliders{
   position: relative;
 }
-/* Слайдер запущен */
 
-/* Ограничивающая оболочка */
 .slick-list {
   overflow: hidden;
 }
-/* Лента слайдов */
+
 .slick-track{
   display: flex;
 }
-
 
 .slick-arrow {
   width: 35px;
@@ -602,7 +575,6 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .testimonias-more {
-
   margin-top: 84px;
   margin-left: 370px;
   font-weight: 700;
@@ -712,13 +684,11 @@ footer {
 .footer-social {
   margin-top: 180px;
   max-width: 273px;
-
 }
 
 .footer-solial-content + .footer-solial-content {
   margin-left: 42px;
 }
-
 
 .col-2-card a h4 {
   font-weight: 600;
@@ -751,9 +721,6 @@ footer {
   color: #8A94A6;
 }
 
-
-
-
 @media  (max-width: 767px){
   .design-screen-info .screen-info-title {
     max-width: 200px;
@@ -774,6 +741,7 @@ footer {
     flex-wrap: wrap;
     align-items: center;
   }
+
   .trusted-company a {
     padding-bottom: 40px;
   }
@@ -801,47 +769,46 @@ footer {
   }
 
 
-.features-content {
-  grid-gap: 10px;
-  grid-template-columns: 1fr;
-  margin-top: -60px;
-}
+  .features-content {
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    margin-top: -60px;
+  }
 
-.features-content-cards-body {
-  margin-top: 100px;
-  grid-gap: 10px;
-  grid-template-columns: 1fr 1fr;
-  margin-left: 60px;
-}
+  .features-content-cards-body {
+    margin-top: 100px;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 60px;
+  }
 
-.features-content-info h5 {
-  text-align: center;
-}
+  .features-content-info h5 {
+    text-align: center;
+  }
 
-.features-content-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .features-content-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.features-content-info h3 {
-  max-width: 400px;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 45px;
-  color: #000000;
-  margin-bottom: 24px;
+  .features-content-info h3 {
+    max-width: 400px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
+    margin-bottom: 24px;
+  }
 
+  .features-content-info p {
+    max-width: 343px;
+    font-weight: 100px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000;
+  }
 
-}
-.features-content-info p {
-  max-width: 343px;
-  font-weight: 100px;
-  font-size: 18px;
-  line-height: 25px;
-  color: #000;
-
-}
   .portfolio-card {
     display: flex;
     align-items: center;
@@ -870,7 +837,7 @@ footer {
   .testimonial-content-title {
     margin-top: 23px;
     font-weight: 700;
-    font-size: 42px;
+    font-size: 30px;
     line-height: 30px;
     color: #000;
     margin-bottom: 95px;
@@ -882,12 +849,12 @@ footer {
 
   .slick-arrow.slick-prev {
     top: -125px;
-    left: 540px;
+    left: 450px;
   }
 
   .slick-arrow.slick-next {
     top: -125px;
-    left: 600px;
+    left: 500px;
   }
   .testimonias-more {
     margin-left: 220px;
@@ -920,26 +887,125 @@ footer {
     transition: transform 0.5s ease-in;
     z-index: 99;
   }
+
   .header-nav a{
     opacity: 0;
     top: 20px;
     align-items: center;
-
   }
 
   .burger {
     display: block;
   }
-
-  /* .design-screen-body img{
-   display: none;
-  } */
-
 }
 
 @media  (max-width: 480px) {
+  .card-item-title h4{
+    max-width: 300px;
+    margin-top: 6px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 16px;
+    color: #000;
+  }
 
+  .card-item-text {
+    max-width: 300px;
+    margin-top: 8px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #98A1BB;
+    margin-bottom: 5px;
+  }
+
+  .portfolio-btn {
+    margin-left: 135px;
+    margin-top: 76px;
+    width: 142px;
+    height: 45px;
+    padding: 13px 15px;
+    margin-bottom: 170px;
+  }
+
+  .testimonial-content-title {
+    margin-top: 23px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 28px;
+    color: #000;
+    margin-bottom: 95px;
+    margin-left: 20px;
+ }
+
+  .slick-arrow.slick-prev {
+    top: -125px;
+    left: 320px;
+  }
+
+  .slick-arrow.slick-next {
+    top: -125px;
+    left: 360px;
+  }
+
+  .slider-header-stars {
+    margin-left: 50px;
+    margin-right: 15px;
+  }
+
+  .slider-card-text {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000;
+  }
+
+  .testimonias-more {
+    margin-left: 80px;
+  }
+
+  .our-team .col-3  h5 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .our-team .col-3  p {
+    font-weight: 300;
+    color: #98A1BB;
+    font-size: 16px;
+    line-height: 15px;
+  }
+
+  .view-more {
+    margin-left: 160px;
+  }
+  .col-2-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .col-list {
+    display: none;
+  }
+  .content-card-item h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+  }
+
+  .content-card-item p {
+    font-weight: 400;
+    color: #98A1BB;
+    font-size: 16px;
+    line-height: 17px;
+    margin-top: 5px;
+  }
 }
+
 .nav-active {
   transform: translate(0%);
 }
@@ -948,17 +1014,14 @@ footer {
   from{
     opacity: 0;
     transform: translate(50px);
-
   }to {
     opacity: 1;
     transform: translate(0px);
-
   }
 }
 
 .toggle .line1 {
   transform: rotate(-45deg) translate(-5px,6px);
-
 }
 
 .toggle .line2{
